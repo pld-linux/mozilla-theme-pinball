@@ -1,5 +1,5 @@
-Summary:	Great theme. It doesnt't take much space.
-Summary(pl):	Przepiêkny temat. Idealny kompromis pomiêdzy rozmiarem i czytelno¶ci±.
+Summary:	Great theme. It doesnt't take much space
+Summary(pl):	Przepiêkny temat. Idealny kompromis pomiêdzy rozmiarem i czytelno¶ci±
 Name:		mozilla-theme-pinball
 Version:	1.0.3
 %define		_realname	pinball
