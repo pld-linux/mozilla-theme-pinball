@@ -1,9 +1,9 @@
 Summary:	Great theme - it doesn't take much space
 Summary(pl):	Przepiêkny motyw - idealny kompromis pomiêdzy rozmiarem i czytelno¶ci±
 Name:		mozilla-theme-pinball
-Version:	2004.08.11
+Version:	2004.09.15
 %define		_realname	pinball
-%define		_snap		2004-08-11_1.7
+%define		_snap		2004-09-15_1.7
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
@@ -11,6 +11,7 @@ Source0:	http://mozilla-themes.schellen.net/%{_realname}_%{_snap}.jar
 # Source0-md5:	c8330a28b2f13e09c6b5a3c5a5844719
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://mozilla-themes.schellen.net/
+Requires(post,postun):	mozilla >= 1.7.3-3
 Requires(post,postun):	textutils
 Requires:	mozilla >= 1.7
 BuildArch:	noarch
@@ -40,12 +41,10 @@ install %{SOURCE1} $RPM_BUILD_ROOT%{_chromedir}
 rm -rf $RPM_BUILD_ROOT
 
 %post
-umask 022
-cat %{_chromedir}/*-installed-chrome.txt >%{_chromedir}/installed-chrome.txt
+%{_sbindir}/mozilla-chrome+xpcom-generate
 
 %postun
-umask 022
-cat %{_chromedir}/*-installed-chrome.txt >%{_chromedir}/installed-chrome.txt
+%{_sbindir}/mozilla-chrome+xpcom-generate
 
 %files
 %defattr(644,root,root,755)
