@@ -1,5 +1,5 @@
-Summary:	Great theme. It doesnt't take much space
-Summary(pl):	Przepiêkny temat. Idealny kompromis pomiêdzy rozmiarem i czytelno¶ci±
+Summary:	Great theme - it doesn't take much space
+Summary(pl):	Przepiêkny temat - idealny kompromis pomiêdzy rozmiarem i czytelno¶ci±
 Name:		mozilla-theme-pinball
 Version:	1.0.3
 %define		_realname	pinball
@@ -18,6 +18,8 @@ BuildRoot:	%{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
 %define		_chromedir	%{_libdir}/mozilla/chrome
 
 %description
+The great theme, very good in low resolutions (800x600) - it doesn't
+take much space, but it's still nice.
 
 %description -l pl
 Przepiêkny temat, który wy¶mienicie nadaje siê do u¿ywania w niskich
@@ -29,6 +31,7 @@ trac±c przy tym na urodzie.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_chromedir}
+
 install %{SOURCE0} $RPM_BUILD_ROOT%{_chromedir}/%{_realname}.jar
 install %{SOURCE1} $RPM_BUILD_ROOT%{_chromedir}
 
