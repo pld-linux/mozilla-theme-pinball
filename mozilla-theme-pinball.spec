@@ -8,7 +8,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://mozilla-themes.schellen.net/%{_realname}_%{_snap}.jar
-# Source0-md5:	c8330a28b2f13e09c6b5a3c5a5844719
+# Source0-md5:	05ba8980ee9b8380fce214db6d98f014
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://mozilla-themes.schellen.net/
 Requires(post,postun):	mozilla >= 1.7.3-3
