@@ -1,8 +1,8 @@
 Summary:	Great theme - it doesn't take much space
 Summary(pl):	Przepiêkny motyw - idealny kompromis pomiêdzy rozmiarem i czytelno¶ci±
 Name:		mozilla-theme-pinball
-Version:	2004.09.15
 %define		_realname	pinball
+Version:	2004.09.15
 %define		_snap		2004-09-15_1.7
 Release:	1
 License:	GPL
