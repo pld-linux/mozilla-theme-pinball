@@ -1,4 +1,5 @@
 skin,install,url,jar:resource:/chrome/pinball.jar!/
+skin,install,url,jar:resource:/chrome/pinball.jar!/calendar/
 skin,install,url,jar:resource:/chrome/pinball.jar!/communicator/
 skin,install,url,jar:resource:/chrome/pinball.jar!/editor/
 skin,install,url,jar:resource:/chrome/pinball.jar!/global/
