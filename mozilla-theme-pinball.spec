@@ -11,9 +11,9 @@ Source0:	http://mozilla-themes.schellen.net/%{_realname}_%{_snap}.jar
 # Source0-md5:	05ba8980ee9b8380fce214db6d98f014
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://mozilla-themes.schellen.net/
-Requires(post,postun):	mozilla >= 1.7.3-3
+Requires(post,postun):	mozilla >= 5:1.7.3-3
 Requires(post,postun):	textutils
-Requires:	mozilla >= 1.7
+Requires:	mozilla >= 5:1.7
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
