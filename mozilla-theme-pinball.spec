@@ -1,22 +1,22 @@
 Summary:	Great theme - it doesn't take much space
 Summary(pl):	Przepiêkny motyw - idealny kompromis pomiêdzy rozmiarem i czytelno¶ci±
 Name:		mozilla-theme-pinball
-Version:	2004.01.16
+Version:	2004.08.11
 %define		_realname	pinball
-%define		_snap		2004-01-16_1.6
+%define		_snap		2004-08-11_1.7
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
-Source0:	http://downloads.mozdev.org/themes/themes/%{_realname}_%{_snap}.jar
-# Source0-md5:	8627624d16bacff3b959d130db5ba07c
+Source0:	http://mozilla-themes.schellen.net/%{_realname}_%{_snap}.jar
+# Source0-md5:	c8330a28b2f13e09c6b5a3c5a5844719
 Source1:	%{_realname}-installed-chrome.txt
-URL:		http://themes.mozdev.org/themes/pinball.html
+URL:		http://mozilla-themes.schellen.net/
 Requires(post,postun):	textutils
-Requires:	mozilla >= 1.6
+Requires:	mozilla >= 1.7
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
 
-%define		_chromedir	%{_libdir}/mozilla/chrome
+%define		_chromedir	%{_datadir}/mozilla/chrome
 
 %description
 The great theme, very good in low resolutions (800x600) - it doesn't
