@@ -7,8 +7,8 @@ Version:	1.0.3
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
-Source0:	http://downloads.mozdev.org/themes/%{_realname}_%{_snap}.jar
-# Source0-md5:	8f9e2f6d2fd6ca319f6573a9b40245c0
+Source0:	http://downloads.us-east1.mozdev.org/themes/%{_realname}_%{_snap}.jar
+# Source0-md5:	0a72289e0f9e529edc0d49796048dc7f
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://themes.mozdev.org/skins/pinball.html
 Requires(post,postun):	textutils
