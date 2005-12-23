@@ -2,13 +2,13 @@ Summary:	Great theme - it doesn't take much space
 Summary(pl):	Przepiêkny motyw - idealny kompromis pomiêdzy rozmiarem i czytelno¶ci±
 Name:		mozilla-theme-pinball
 %define		_realname	pinball
-Version:	2005.04.17
-%define		_snap		2005-04-17_1.7
+Version:	2005.09.17
+%define		_snap		2005-09-17_1.7
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://mozilla-themes.schellen.net/%{_realname}_%{_snap}.jar
-# Source0-md5:	15b0fb2e86393000720422052355a6fc
+# Source0-md5:	9c8ad2ebc19bd502ff1a793b425b93b8
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://mozilla-themes.schellen.net/
 Requires(post,postun):	mozilla >= 5:1.7.3-3
