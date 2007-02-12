@@ -1,5 +1,5 @@
 Summary:	Great theme - it doesn't take much space
-Summary(pl):	Przepiêkny motyw - idealny kompromis pomiêdzy rozmiarem i czytelno¶ci±
+Summary(pl.UTF-8):   PrzepiÄ™kny motyw - idealny kompromis pomiÄ™dzy rozmiarem i czytelnoÅ›ciÄ…
 Name:		mozilla-theme-pinball
 %define		_realname	pinball
 Version:	2005.09.17
@@ -23,10 +23,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The great theme, very good in low resolutions (800x600) - it doesn't
 take much space, but it's still nice.
 
-%description -l pl
-Przepiêkny motyw, który wy¶mienicie nadaje siê do u¿ywania w niskich
-rozdzielczo¶ciach (800x600), gdy¿ zajmuje niewielk± powierzchniê
-ekranu nie trac±c przy tym na urodzie.
+%description -l pl.UTF-8
+PrzepiÄ™kny motyw, ktÃ³ry wyÅ›mienicie nadaje siÄ™ do uÅ¼ywania w niskich
+rozdzielczoÅ›ciach (800x600), gdyÅ¼ zajmuje niewielkÄ… powierzchniÄ™
+ekranu nie tracÄ…c przy tym na urodzie.
 
 %prep
 
