@@ -1,5 +1,5 @@
 Summary:	Great theme - it doesn't take much space
-Summary(pl.UTF-8):   Przepiękny motyw - idealny kompromis pomiędzy rozmiarem i czytelnością
+Summary(pl.UTF-8):	Przepiękny motyw - idealny kompromis pomiędzy rozmiarem i czytelnością
 Name:		mozilla-theme-pinball
 %define		_realname	pinball
 Version:	2005.09.17
